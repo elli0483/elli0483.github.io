@@ -1,0 +1,67 @@
+
+body {
+    background-color:rgb(186, 225, 225) ;
+    width: 50%;
+    margin: auto;
+
+}
+
+.left, .right {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    top: 0;
+}
+
+.right { 
+    background-color: rgb(144, 196, 197);
+    right: 0;
+}
+
+.left {
+    background-color: rgb(144, 196, 197);
+        left: 0;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0% auto;
+    position: relative;
+}
+    
+header h1{
+    padding:100px;
+    text-align: center ;
+    color:white;
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-position: center ;
+    background-repeat:no-repeat ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+img {
+    max-width: 25%;
+    max-width: 25%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 13px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar li {
+display: inline-block;
+margin-left: 50px;
+}
