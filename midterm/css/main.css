@@ -3,6 +3,9 @@ body {
     background-color:rgb(186, 225, 225) ;
     width: 50%;
     margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*same font to everything on webpage,
+    same background colour*/
 
 }
 
@@ -11,6 +14,7 @@ body {
     width: 25%;
     height: 100%;
     top: 0;
+ /*creates border and background colour*/
 }
 
 .right { 
@@ -22,22 +26,16 @@ body {
     background-color: rgb(144, 196, 197);
         left: 0;
 }
-
-.container {
-
-    width: 80%;
-    margin: 0% auto;
-    position: relative;
-}
     
 header h1{
     padding:100px;
+    margin-top: 0;
+        /*connects first image to top of the page*/
     text-align: center ;
     color:white;
     background-image: url(../images/lone-starfish-wide.jpg);
     background-position: center ;
     background-repeat:no-repeat ;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 img {
@@ -46,22 +44,114 @@ img {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .text p {
     font-size: 13px;
     margin: 0 auto;
+    margin-left: 10px;
     position: relative;
+    /*texts wraps around starfish image*/
 }
 
-.navbar ul {
+.navbar {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
 
 .navbar li {
-display: inline-block;
-margin-left: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    bottom: 20px;
+
 }
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li ::after {
+    content: "|";
+    position: absolute;
+    color: black;
+    width: 100%;
+    left: 50px
+}
+/* "|" in between words */
+
+/*-- facts: create an unordered list with no left padding paddingleft0-->*/
+.facts {
+margin-left: -20px;
+}
+
+/* all headings spaced the same*/
+h2 {
+margin-left: 10px;
+}
+
+h3 {
+margin-left: 10px;
+}
+
+h4 {
+margin-top: 1%;
+margin-left: 10px;
+}
+
+section {
+    border-style: hidden;
+    background-color: #cffdf7;
+  }
+
+.formbox{
+  padding: 10px;  
+  border-style:inset;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: black;
+  background-color:rgb(186, 225, 225) ;
+}
+
+form {
+    padding: 10px
+}
+
+#buttons {
+margin-top: -3%;
+}     /*brings buttons closer too title */
+
+
+#yourname {
+    margin: 0 auto;
+    position: relative;
+    height: 15px;
+    width: 100%;
+        /*boxsizing*/
+
+  }
+
+#youremail {
+    margin: 0 auto;
+    position: relative;
+    height: 15px;
+    width: 100%;
+  }
+  
+#yourmessage {
+    margin: 0 auto;
+    position: relative;
+    height: 65px;
+    width: 100%;
+  }
+
+footer {
+    padding: 20px;
+    position: relative;
+    margin-left: 80%;
+    font-size: smaller;
+} 
