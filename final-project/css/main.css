@@ -1,0 +1,263 @@
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+@media screen and (max-width: 760px) {
+
+
+
+nav {
+    position: relative;
+    background-color: #222;
+    width: 760px;
+ }
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 15px ;
+    color: #c78c06;
+    
+}
+
+.one {
+    position: relative;
+    background-color: #222;
+    padding: 22px;
+}
+
+.headeryellowbox {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.search-container {
+    margin: 20px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  /* Style for the search input */
+  .search-bar {
+    position: relative;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+
+ 
+ 
+.home img {
+    width: 760px; 
+    position: relative;
+    top: -20px;
+    padding: 0px;
+     
+}
+
+.overlay {
+    position: relative;
+    width: 760px; 
+    position: relative;
+    top: -520px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.581);
+}
+
+.overlay h1 {
+    position: relative;
+    padding: 10px;
+
+}
+
+.overlay p {
+    position: relative;
+    padding: 10px;
+    font-size:14px;
+    font-weight: lighter;
+    bottom: 35px;
+
+}
+
+.flex-container {
+    position: relative;
+    font-size: 25px;
+    background-color: #c78c06;
+    position: relative;
+    width: 270px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    left: 15px;
+    bottom: 35px;
+    font-weight: lighter;
+    color: black;
+    
+    /* position: relative;
+    left: 10px;
+    bottom: 10px;
+    background-color:#c78c06;
+    font-size: 20px ;
+    text-align:;
+    color: black;
+    width: 275px;
+    height: 90px;
+    */
+}
+
+/* .overlay {
+    width: 760px; 
+    position: relative;
+    top: -520px;
+    font-size: 85px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+
+} */
+
+
+#about {
+    position: relative;
+    top: -520px;
+    text-align: left;
+}
+
+#about img {
+    position: relative;
+    width: 100%;
+    border: 10px solid #ffe6ac;
+}
+
+#about h1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: -4px;
+    padding-left: 10px;
+    background-color: #ffe6ac;
+    text-align: left;
+    color: black; 
+    font-size: 3em;
+    margin: 0;
+
+}
+
+#about p {
+    position: relative;
+    top: -4px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: #ffe6ac;
+    color: black;
+    margin:  auto;
+}
+
+#services {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    top: -550px;
+}
+
+#services h2 {
+    position: relative;
+    top: 30px;
+    font-size: 45px;
+    padding: 10px;
+    }
+
+ #services h3 {
+    position: relative;
+    background-color: #ffe6ac;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+#services p {
+    position: relative;
+    background-color: #ffe6ac;
+    color: black;
+    padding: 20px;
+}
+
+#services img {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+ .overlay2 {
+        background-color: #ffe6ac; 
+        padding: 20px;
+    }
+
+   p4 {
+    padding: 10px;
+    display:flex;
+    color: #222;
+    text-align: left;
+
+   }
+
+
+
+    button {
+        display: inline-block; 
+        padding: 25px 25px;
+        font-size: 1.5em;
+        background-color: #222;
+        color: #fff;
+        border: none;
+        
+    }
+
+  
+.marketing {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+ .marketing h2 {
+    position: relative;
+    background-color: #ffe6ac;
+    color: black;
+    top: -60px;
+    
+
+}
+
+.marketing p {
+    position: relative;
+    background-color: #ffe6ac;
+    color: black;
+    padding: 30px;
+    top: 10px;}
+
+.marketing img {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+}
